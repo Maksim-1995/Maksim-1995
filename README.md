@@ -1,16 +1,84 @@
-## Hi there 👋
+# Привет, я Максим 👋
 
-<!--
-**Maksim-1995/Maksim-1995** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Backend Developer (Python)
 
-Here are some ideas to get you started:
+Изучаю backend-разработку и создаю проекты на Python. Основной интерес — разработка веб-приложений, REST API, автоматизация и контейнеризация приложений.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Основной стек
+
+### Backend
+- Python
+- Django
+- Django REST Framework
+- Flask
+- REST API
+- JWT Authentication
+- Gunicorn
+
+### Асинхронное программирование
+- asyncio
+- Aiogram
+- Telebot
+
+### Базы данных
+- PostgreSQL
+- SQLite
+
+### Тестирование
+- Pytest
+- Unitest
+
+### DevOps и инфраструктура
+- Docker
+- Docker Compose
+- Nginx
+- Linux
+- CI/CD
+
+### Инструменты разработки
+- Git
+- GitHub
+- PyCharm
+- Requests
+
+### Дополнительные навыки
+- ООП
+- Алгоритмы и структуры данных
+- Рефакторинг кода
+
+### Frontend (базовый уровень)
+- HTML
+- CSS
+- Bootstrap
+
+## Проекты для заказчиков, учебные и pet-проекты
+
+### Telegram-бот для записи в парикмахерскую
+- Python
+- Aiogram
+- Docker
+- PostgreSQL
+
+### Kittygram
+- Django
+- DRF
+- React
+- Nginx
+- Gunicorn
+
+### Taski
+- Django
+- DRF
+- Docker
+- CI/CD
+
+## 📚 Сейчас изучаю
+- Углублённо PostgreSQL
+- Асинхронный Python
+- Docker и DevOps
+- Архитектуру веб-приложений
+
+## 📫 Контакты
+
+- GitHub: https://github.com/Maksim-1995/
+- Telegram: @MaksimKME
