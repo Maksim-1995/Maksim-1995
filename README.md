@@ -54,19 +54,24 @@ Backend Developer (Python)
 ## Проекты для заказчиков, учебные и pet-проекты
 
 ### Telegram-бот для записи в парикмахерскую
+https://github.com/Maksim-1995/tg_bot_for_barber
 - Python
 - Aiogram
 - Docker
-- PostgreSQL
+- SQLite
 
-### Kittygram
-- Django
-- DRF
-- React
-- Nginx
-- Gunicorn
+### api-yamdb
+https://github.com/Maksim-1995/api-yamdb
+- Python 3.11
+- Django 5.1 
+- Django REST Framework
+- PyJWT
+- django‑filter
+- SQLite
+- Pytest
 
 ### Taski
+https://github.com/Maksim-1995/taski-docker
 - Django
 - DRF
 - Docker
