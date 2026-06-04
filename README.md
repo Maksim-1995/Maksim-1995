@@ -53,7 +53,7 @@ Backend Developer (Python)
 
 ## Проекты для заказчиков, учебные и pet-проекты
 
-### Telegram-бот для записи в парикмахерскую
+### Telegram-бот для записи в парикмахерскую(Проект развернут локально; продакшн-деплой на удалённом сервере в процессе настройки)
 https://github.com/Maksim-1995/tg_bot_for_barber
 - Python
 - Aiogram
@@ -69,6 +69,15 @@ https://github.com/Maksim-1995/api-yamdb
 - django‑filter
 - SQLite
 - Pytest
+  
+ ### Blogicum — блог-платформа на Django
+https://github.com/Maksim-1995/project_blogicum
+Python
+Django 4.2 / 5.x
+Bootstrap 5
+SQLite (dev) / PostgreSQL (prod-ready)
+pytest / pytest-django
+https://maksim1995k.pythonanywhere.com/
 
 ### Taski
 https://github.com/Maksim-1995/taski-docker
