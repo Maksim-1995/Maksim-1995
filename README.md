@@ -38,6 +38,8 @@ Backend Developer (Python)
 ### Инструменты разработки
 - Git
 - GitHub
+- Docker Hub
+- Postman
 - PyCharm
 - Requests
 
