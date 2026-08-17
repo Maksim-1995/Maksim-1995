@@ -53,24 +53,14 @@ Backend Developer (Python)
 - CSS
 - Bootstrap
 
-## Проекты для заказчиков, учебные и pet-проекты
+## Проекты 
 
-### Telegram-бот для записи в парикмахерскую(Проект развернут локально; продакшн-деплой на удалённом сервере в процессе настройки)
-https://github.com/Maksim-1995/tg_bot_for_barber
-- Python
-- Aiogram
-- Docker
-- SQLite
-
-### api-yamdb
-https://github.com/Maksim-1995/api-yamdb
-- Python 3.11
-- Django 5.1 
-- Django REST Framework
-- PyJWT
-- django‑filter
-- SQLite
-- Pytest
+### Foodgram — «Фудграм»
+Foodgram — это онлайн-платформа для публикации и обмена кулинарными рецептами. Пользователи могут создавать рецепты, добавлять чужие рецепты в избранное, подписываться на авторов, а также формировать и скачивать список покупок для приготовления выбранных блюд.
+Проект состоит из **REST API** на Django REST Framework и **SPA-фронтенда** на React.
+## Запуск проекта
+http://176.12.75.107/
+https://github.com/Maksim-1995/foodgram
   
  ### Blogicum — блог-платформа на Django
 https://github.com/Maksim-1995/project_blogicum
