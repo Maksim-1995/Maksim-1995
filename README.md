@@ -201,10 +201,7 @@ https://github.com/Maksim-1995/async-yacut
 `Python` `Django` `PostgreSQL` `SQLite` `Bootstrap` `Pytest`
 
 **GitHub:**
-https://github.com/Maksim-1995/project_blogicum
-
-**Demo:**
-https://maksim1995k.pythonanywhere.com/
+https://github.com/Maksim-1995/django-sprint4
 
 ---
 
