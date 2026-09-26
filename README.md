@@ -1,302 +1,444 @@
 # Привет, я Максим 👋
 
-### Python Backend Developer
+## Python Backend Developer · ML / LLM Engineering
 
-Разрабатываю backend-приложения на **Python**. Основной стек — **Django, Django REST Framework, PostgreSQL и Docker**.
+Разрабатываю backend-сервисы на **Python** и развиваюсь в направлении **ML/AI Engineering**.
 
-Работаю с проектированием REST API, реляционными базами данных, аутентификацией и авторизацией, тестированием и контейнеризацией приложений.
+Основной стек:
 
-Изучаю интеграцию **LLM и AI API** в backend-сервисы: structured outputs, tool calling, RAG и построение AI Gateway.
+`Python` `Django` `Django REST Framework` `FastAPI` `PostgreSQL` `Docker`
 
-Есть опыт развёртывания проектов на Linux-серверах с использованием **Docker Compose, Nginx, Gunicorn и CI/CD**.
+Работаю с:
+
+- проектированием и разработкой REST API;
+- реляционными базами данных и ORM;
+- аутентификацией и разграничением доступа;
+- асинхронным Python;
+- интеграцией внешних API;
+- тестированием backend-кода;
+- Docker и CI/CD;
+- production-развёртыванием на Linux;
+- интеграцией LLM в backend-сервисы.
+
+В AI-направлении особенно интересуюсь тем, как **ML/LLM-модели превращаются в production-сервисы**: AI Gateway, structured outputs, tool calling, RAG, embeddings, vector search, rate limiting, caching, fallback и контроль использования моделей.
+
+Есть опыт коммерческой разработки, командной работы, code review и роли тимлида.
 
 ---
 
-## 🛠 Технологии
+# 🛠 Технологии
 
 ### Backend
 
-`Python` `Django` `Django REST Framework` `Flask` `REST API` `Gunicorn`
+`Python` `Django` `Django REST Framework` `FastAPI` `Flask` `REST API`
 
-### AI / LLM
+### Databases
 
-`LLM API` `Prompt Engineering` `AI API Integration`
+`PostgreSQL` `SQLite` `Django ORM` `SQLAlchemy`
 
-Изучаю и применяю подходы к интеграции LLM в backend-приложения:
+### Async
 
-* интеграция LLM через REST API;
-* Prompt Engineering;
-* Structured Outputs;
-* Tool / Function Calling;
-* асинхронное взаимодействие с AI API;
-* обработка ошибок, timeout и retry;
-* проектирование AI Gateway;
-* rate limiting;
-* контроль token usage и стоимости запросов;
-* кэширование AI-запросов;
-* fallback между LLM-провайдерами.
+`asyncio` `aiohttp` `Aiogram 3`
 
-**В процессе изучения:**
-`RAG` `Embeddings` `Vector Search` `pgvector / Qdrant` `LangChain` `LangGraph`
+### ML / AI / LLM
 
-### Базы данных
+`LLM API` `AI API Integration` `Prompt Engineering` `Structured Outputs` `Tool Calling` `AI Gateway`
 
-`PostgreSQL` `SQLite`
+Изучаю и применяю:
 
-### Асинхронная разработка
+`RAG` `Embeddings` `Vector Search` `pgvector` `Qdrant` `LangGraph`
 
-`asyncio` `Aiogram` `Telebot`
-
-### Тестирование
+### Testing
 
 `Pytest` `unittest`
 
-### DevOps и инфраструктура
+### DevOps
 
-`Docker` `Docker Compose` `Nginx` `Linux` `GitHub Actions` `CI/CD`
+`Docker` `Docker Compose` `Linux` `Nginx` `Gunicorn` `GitHub Actions` `CI/CD`
 
-### Инструменты
+### Tools
 
-`Git` `GitHub` `Docker Hub` `Postman` `PyCharm` `Requests`
-
-### Дополнительно
-
-`ООП` `Алгоритмы и структуры данных` `Рефакторинг`
-
-### Frontend — базовый уровень
-
-`HTML` `CSS` `Bootstrap`
+`Git` `GitHub` `Docker Hub` `Postman` `PyCharm`
 
 ---
 
-# 🚀 Проекты
+# 🤖 AI / ML Engineering
 
-## 🍽 Foodgram — сервис публикации рецептов
+Сейчас развиваюсь на стыке **Python Backend и ML Engineering**.
 
-Backend веб-приложения для публикации и обмена кулинарными рецептами с **REST API** и SPA-фронтендом.
+Работаю над архитектурой сервисов, которые предоставляют единый backend-интерфейс для взаимодействия с AI-моделями.
 
-### Возможности
+Практикую:
 
-* регистрация и аутентификация пользователей;
-* создание, редактирование и удаление рецептов;
-* загрузка изображений рецептов и аватаров;
-* подписки на авторов;
-* добавление рецептов в избранное;
-* добавление рецептов в список покупок;
-* автоматическое формирование и скачивание списка ингредиентов;
-* фильтрация рецептов по тегам;
-* поиск ингредиентов;
-* пагинация API;
-* административная панель Django.
+- интеграцию LLM через API;
+- Structured Outputs;
+- Tool / Function Calling;
+- асинхронную работу с AI API;
+- timeout / retry;
+- provider routing;
+- fallback между LLM-провайдерами;
+- rate limiting;
+- caching;
+- контроль token usage;
+- обработку ошибок AI-провайдеров;
+- проектирование AI Gateway.
+
+Следующее направление развития:
+
+**RAG → Embeddings → Vector Search → pgvector / Qdrant → LangGraph**
+
+---
+
+# 🚀 Основные проекты
+
+## 🤖 AI Subscription Service / AI Gateway
+
+Backend-проект для предоставления доступа к AI-моделям через единый API.
+
+Архитектура разделена на основной backend и отдельный AI Gateway:
+
+`Client → Core API → AI Gateway → LLM Provider`
+
+### Backend
+
+**Core API:**
+
+`Django` `Django REST Framework` `PostgreSQL`
+
+**AI Gateway:**
+
+`FastAPI` `asyncio` `LLM API`
+
+В проекте развиваю:
+
+- API для взаимодействия с AI-сервисами;
+- маршрутизацию запросов между LLM-провайдерами;
+- fallback при ошибках основного провайдера;
+- API-key authentication;
+- rate limiting;
+- учёт использования AI API;
+- контроль token usage;
+- обработку timeout и ошибок внешних API;
+- тестирование provider layer;
+- разделение основной бизнес-логики и AI-инфраструктуры.
+
+Проект использую для изучения архитектуры backend-сервисов и production-интеграции LLM.
+
+---
+
+## 🍽 Foodgram — REST API сервиса рецептов
+
+Полноценное backend-приложение для публикации и обмена рецептами с REST API и SPA-фронтендом.
 
 ### Backend
 
 REST API реализован на **Django REST Framework**.
 
-В проекте реализованы:
+Реализованы:
 
-* кастомная модель пользователя;
-* аутентификация через Djoser;
-* serializers и ViewSets DRF;
-* permissions;
-* filtering и pagination;
-* загрузка и хранение изображений;
-* связи между пользователями, рецептами, ингредиентами и тегами;
-* PostgreSQL для хранения данных.
+- кастомная модель пользователя;
+- регистрация и аутентификация;
+- permissions;
+- CRUD рецептов;
+- подписки на авторов;
+- избранное;
+- список покупок;
+- фильтрация и пагинация;
+- поиск ингредиентов;
+- загрузка изображений;
+- связанные модели через ForeignKey и ManyToMany;
+- административная панель Django.
 
-### Инфраструктура
+В базу загружается около **2200 ингредиентов**.
+
+Проект проходит **1134+ тестовых сценариев** моделей и API.
+
+### Production
 
 Проект полностью контейнеризирован.
 
-Production-окружение:
-
-`Nginx → Docker Gateway → Gunicorn → Django → PostgreSQL`
-
-Используются отдельные Docker-контейнеры для:
-
-* backend;
-* frontend;
-* PostgreSQL;
-* Nginx gateway.
+```text
+Nginx
+  ↓
+Docker
+  ↓
+Gunicorn
+  ↓
+Django / DRF
+  ↓
+PostgreSQL
+```
 
 Настроены:
 
-* Docker Compose;
-* Gunicorn;
-* Nginx;
-* persistent volumes для PostgreSQL, static и media;
-* Django migrations;
-* сбор статических файлов;
-* CI/CD через GitHub Actions;
-* автоматическая сборка Docker-образов;
-* публикация образов в Docker Hub;
-* автоматический деплой приложения на сервер.
+- Docker Compose;
+- PostgreSQL 16;
+- Nginx;
+- Gunicorn;
+- persistent volumes;
+- migrations;
+- static/media;
+- GitHub Actions;
+- автоматическая сборка Docker-образов;
+- публикация образов;
+- автоматический deployment на VPS.
 
 **Стек:**
-`Python` `Django` `DRF` `PostgreSQL` `Docker` `Docker Compose` `Nginx` `Gunicorn` `GitHub Actions` `CI/CD`
+
+`Python` `Django` `DRF` `PostgreSQL` `Docker` `Docker Compose` `Nginx` `Gunicorn` `GitHub Actions`
 
 **GitHub:**
-https://github.com/Maksim-1995/foodgram
+[https://github.com/Maksim-1995/foodgram](https://github.com/Maksim-1995/foodgram)
 
-**Demo:**
-http://176.12.75.107/
+**Production:**
+[http://maksim-foodgram.duckdns.org](http://maksim-foodgram.duckdns.org)
 
 ---
+
 ## 💈 Telegram-бот «Народная цирюльня»
 
-Telegram-бот для автоматизации записи клиентов в барбершоп.
-@ai_bar_baros_bot
+Коммерческий проект для автоматизации записи клиентов в парикмахерскую.
 
-### Возможности
-выбор услуги и мастера;
-запись на доступную дату и время;
-автоматическое формирование временных слотов;
-учёт расписания мастеров, обеденных перерывов и занятых интервалов;
-сохранение имени, телефона и комментария клиента;
-перенос и отмена записи;
-уведомления клиентов о создании, переносе и отмене записи;
-уведомления администраторов о новых записях;
-управление услугами, мастерами, расписанием и настройками салона;
-защита от повторной обработки нажатий и некорректных действий пользователя.
-Backend
+**Работающий бот:**
+[https://t.me/ai_bar_baros_bot](https://t.me/ai_bar_baros_bot)
 
-Бот построен на Aiogram 3 с асинхронной работой через asyncio.
+### Для клиентов
 
-### В проекте реализованы:
+- выбор услуги;
+- выбор мастера;
+- просмотр доступных дат и времени;
+- автоматическое формирование свободных слотов;
+- онлайн-запись;
+- перенос и отмена записи;
+- уведомления;
+- подтверждение записи.
 
-разделение обработчиков на routers;
-FSM-сценарии записи;
-сервисный слой для бизнес-логики;
-асинхронная работа с базой данных;
-SQLAlchemy ORM;
-валидация пользовательских данных;
-конфигурация через переменные окружения;
-логирование и обработка сетевых ошибок;
-SQLite с постоянным хранением данных.
-Тестирование и CI/CD
+### Для администратора
 
-Проект покрыт 38 unit-тестами на стандартном unittest.
+Реализована отдельная административная система:
 
-Настроен автоматический pipeline:
-
-Push в main → Unit-тесты → Сборка Docker-образа → Docker Hub → Деплой на VPS
-
-### Production-настройка включает:
-
-Docker и Docker Compose;
-автоматическую публикацию образа в Docker Hub;
-деплой через GitHub Actions по SSH;
-persistent volumes для SQLite и логов;
-автоматический перезапуск контейнера;
-ограничение размера Docker-логов;
-хранение секретов в GitHub Secrets и .env на сервере.
-
-### Стек:
-Python Aiogram 3 asyncio SQLAlchemy aiosqlite SQLite Pydantic Settings unittest Docker Docker Compose GitHub Actions CI/CD Linux
-
-** GitHub:
-https://github.com/Maksim-1995/tg_bot_for_barber
-
-** Docker Hub:
-https://hub.docker.com/r/maksim1995/barber_bot
-
-## 🔗 YaCut — сервис сокращения ссылок
-
-Веб-приложение на **Flask** для создания коротких ссылок.
-
-Пользователь может передать исходный URL и получить сокращённую ссылку с автоматически сгенерированным или собственным коротким идентификатором.
-
-### Возможности
-
-* создание коротких ссылок;
-* автоматическая генерация уникального идентификатора;
-* пользовательские короткие идентификаторы;
-* перенаправление на оригинальный URL;
-* проверка уникальности идентификаторов;
-* валидация пользовательских данных;
-* REST API для создания коротких ссылок;
-* обработка ошибок API.
+- управление услугами;
+- управление мастерами;
+- настройка расписания;
+- управление выходными и праздничными датами;
+- просмотр записей;
+- ручное создание записи;
+- перенос и техническая отмена;
+- настройка интервала слотов;
+- заполнение demo-данными.
 
 ### Backend
 
-В проекте используются:
+Бот построен на **Aiogram 3** и асинхронном Python.
 
-* Flask;
-* Flask-SQLAlchemy;
-* SQLAlchemy ORM;
-* Flask-WTF и WTForms;
-* REST API;
-* JSON-запросы и ответы;
-* обработка исключений и ошибок API;
-* разделение приложения на модели, формы, views и API.
+Архитектура разделена на:
+
+```text
+handlers
+services
+models
+keyboards
+filters
+utils
+```
+
+Используются:
+
+- routers;
+- FSM;
+- service layer;
+- SQLAlchemy ORM;
+- асинхронная работа с БД;
+- валидация пользовательских данных;
+- логирование;
+- обработка сетевых ошибок;
+- защита от повторных действий пользователя.
+
+Проект покрыт **38 unit-тестами**.
+
+### CI/CD
+
+```text
+Push в main
+     ↓
+Unit tests
+     ↓
+Docker build
+     ↓
+Docker Hub
+     ↓
+Deploy на VPS
+```
+
+Production-настройка включает:
+
+- Docker / Docker Compose;
+- persistent volume для SQLite;
+- GitHub Actions;
+- deployment по SSH;
+- автоматический restart;
+- хранение секретов через GitHub Secrets и `.env`.
 
 **Стек:**
-`Python` `Flask` `Flask-SQLAlchemy` `SQLAlchemy` `WTForms` `REST API` `SQLite`
+
+`Python` `Aiogram 3` `asyncio` `SQLAlchemy` `SQLite` `Pydantic Settings` `unittest` `Docker` `GitHub Actions` `Linux`
 
 **GitHub:**
-https://github.com/Maksim-1995/async-yacut
+[https://github.com/Maksim-1995/tg_bot_for_barber](https://github.com/Maksim-1995/tg_bot_for_barber)
+
+**Docker Hub:**
+[https://hub.docker.com/r/maksim1995/barber_bot](https://hub.docker.com/r/maksim1995/barber_bot)
 
 ---
 
-## 📝 Blogicum — блог-платформа на Django
+## ⭐ YaMDb — REST API сервиса отзывов
 
-Веб-приложение для публикации постов и взаимодействия пользователей.
+Командный backend-проект, разработанный командой из **3 Python-разработчиков**.
 
-### Возможности
+В проекте выполнял роли:
 
-* регистрация и аутентификация;
-* создание и редактирование публикаций;
-* категории публикаций;
-* комментарии;
-* профили пользователей;
-* загрузка изображений;
-* пагинация;
-* административная панель Django;
-* тестирование приложения.
+**Python Developer + Team Lead**
+
+### В роли тимлида
+
+- организовал работу команды;
+- участвовал в распределении и приоритизации задач;
+- отслеживал прогресс разработки;
+- координировал интеграцию частей проекта;
+- проводил **code review pull request'ов**;
+- участвовал в устранении замечаний;
+- отвечал за подготовку общей версии проекта к проверке.
+
+### В роли разработчика
+
+Отвечал за:
+
+- модели произведений;
+- категории;
+- жанры;
+- REST API для этих ресурсов;
+- serializers;
+- views;
+- filtering;
+- импорт данных из CSV.
+
+В проекте также реализованы:
+
+- JWT-аутентификация;
+- роли `user / moderator / admin`;
+- permissions;
+- отзывы;
+- комментарии;
+- рейтинг произведений.
 
 **Стек:**
-`Python` `Django` `PostgreSQL` `SQLite` `Bootstrap` `Pytest`
+
+`Python` `Django` `Django REST Framework` `PyJWT` `django-filter` `Pytest` `Git`
 
 **GitHub:**
-https://github.com/Maksim-1995/django-sprint4
+[https://github.com/Maksim-1995/api_yamdb](https://github.com/Maksim-1995/api_yamdb)
 
 ---
 
-## 📚 Сейчас изучаю
+# 📦 Другие проекты
 
-### Backend
+## 🔗 YaCut
 
-* углублённо PostgreSQL;
-* FastAPI;
-* архитектуру backend-приложений;
-* проектирование REST API;
-* асинхронный Python.
+Сервис сокращения ссылок на Flask.
 
-### AI Engineering
+Реализованы REST API, генерация коротких идентификаторов, валидация, SQLAlchemy ORM и обработка ошибок.
 
-* интеграцию LLM API;
-* Structured Outputs;
-* Tool / Function Calling;
-* RAG;
-* Embeddings;
-* Vector Search;
-* pgvector / Qdrant;
-* LangChain;
-* LangGraph.
+**Стек:**
+`Python` `Flask` `SQLAlchemy` `WTForms` `REST API` `SQLite`
+
+**GitHub:**
+[https://github.com/Maksim-1995/async-yacut](https://github.com/Maksim-1995/async-yacut)
+
+---
+
+## 📝 Blogicum
+
+Блог-платформа на Django.
+
+Реализованы:
+
+- регистрация и аутентификация;
+- публикации;
+- категории;
+- комментарии;
+- профили;
+- изображения;
+- пагинация;
+- административная панель;
+- тестирование.
+
+**Стек:**
+`Python` `Django` `PostgreSQL` `Pytest` `Bootstrap`
+
+**GitHub:**
+[https://github.com/Maksim-1995/django-sprint4](https://github.com/Maksim-1995/django-sprint4)
+
+---
+
+# 📚 Сейчас изучаю
+
+### Backend Engineering
+
+- углублённый PostgreSQL;
+- FastAPI;
+- архитектуру backend-сервисов;
+- асинхронный Python;
+- производительность API;
+- Redis;
+- взаимодействие между сервисами.
+
+### ML / AI Engineering
+
+- Machine Learning fundamentals;
+- RAG;
+- Embeddings;
+- Vector Search;
+- pgvector;
+- Qdrant;
+- LangGraph;
+- production-интеграцию ML/LLM-моделей.
 
 ### DevOps
 
-* Docker;
-* CI/CD;
-* Linux;
-* production-развёртывание backend-приложений.
+- Docker;
+- CI/CD;
+- Linux;
+- production deployment;
+- мониторинг backend-сервисов.
 
 ---
 
-## 📫 Контакты
+# 🎯 Профессиональный фокус
+
+Моя основная специализация — **Python Backend Development**.
+
+Одновременно развиваюсь в направлении **ML / AI Engineering**, прежде всего в задачах интеграции моделей в реальные backend-системы.
+
+Мне особенно интересны проекты на пересечении:
+
+```text
+Python Backend
+     +
+Data
+     +
+ML / LLM
+     +
+Production Infrastructure
+```
+
+Цель — развиваться как инженер, способный не только работать с AI-моделью, но и построить вокруг неё надёжный backend-сервис: API, хранение данных, ограничения, тестирование, мониторинг и production-инфраструктуру.
+
+---
+
+# 📫 Контакты
 
 **GitHub:**
-https://github.com/Maksim-1995/
+[https://github.com/Maksim-1995/](https://github.com/Maksim-1995/)
 
 **Telegram:**
-@MaksimKME
+[https://t.me/MaksimKME](https://t.me/MaksimKME)
