@@ -188,10 +188,10 @@ PostgreSQL
 `Python` `Django` `DRF` `PostgreSQL` `Docker` `Docker Compose` `Nginx` `Gunicorn` `GitHub Actions`
 
 **GitHub:**
-[https://github.com/Maksim-1995/foodgram](https://github.com/Maksim-1995/foodgram)
+https://github.com/Maksim-1995/foodgram
 
 **Production:**
-[http://maksim-foodgram.duckdns.org](http://maksim-foodgram.duckdns.org)
+https://maksim-foodgram.duckdns.org
 
 ---
 
@@ -200,7 +200,7 @@ PostgreSQL
 Коммерческий проект для автоматизации записи клиентов в парикмахерскую.
 
 **Работающий бот:**
-[https://t.me/ai_bar_baros_bot](https://t.me/ai_bar_baros_bot)
+https://t.me/ai_bar_baros_bot
 
 ### Для клиентов
 
@@ -284,10 +284,10 @@ Production-настройка включает:
 `Python` `Aiogram 3` `asyncio` `SQLAlchemy` `SQLite` `Pydantic Settings` `unittest` `Docker` `GitHub Actions` `Linux`
 
 **GitHub:**
-[https://github.com/Maksim-1995/tg_bot_for_barber](https://github.com/Maksim-1995/tg_bot_for_barber)
+https://github.com/Maksim-1995/tg_bot_for_barber
 
 **Docker Hub:**
-[https://hub.docker.com/r/maksim1995/barber_bot](https://hub.docker.com/r/maksim1995/barber_bot)
+https://hub.docker.com/r/maksim1995/barber_bot
 
 ---
 
@@ -336,7 +336,7 @@ Production-настройка включает:
 `Python` `Django` `Django REST Framework` `PyJWT` `django-filter` `Pytest` `Git`
 
 **GitHub:**
-[https://github.com/Maksim-1995/api_yamdb](https://github.com/Maksim-1995/api_yamdb)
+https://github.com/Maksim-1995/api_yamdb
 
 ---
 
@@ -352,7 +352,7 @@ Production-настройка включает:
 `Python` `Flask` `SQLAlchemy` `WTForms` `REST API` `SQLite`
 
 **GitHub:**
-[https://github.com/Maksim-1995/async-yacut](https://github.com/Maksim-1995/async-yacut)
+https://github.com/Maksim-1995/async-yacut
 
 ---
 
@@ -376,7 +376,7 @@ Production-настройка включает:
 `Python` `Django` `PostgreSQL` `Pytest` `Bootstrap`
 
 **GitHub:**
-[https://github.com/Maksim-1995/django-sprint4](https://github.com/Maksim-1995/django-sprint4)
+https://github.com/Maksim-1995/django-sprint4
 
 ---
 
